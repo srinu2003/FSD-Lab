@@ -13,16 +13,6 @@ public class App {
 
     public static void main(String[] args) {
 
-        // // Load the MySQL JDBC driver
-        // try {
-        //     Class.forName("com.mysql.cj.jdbc.Driver");
-        //     System.out.println("MySQL JDBC driver loaded.");
-        // } catch (ClassNotFoundException e) {
-        //     System.out.println("Failed to load the MySQL JDBC driver.");
-        //     e.printStackTrace();
-        //     return;
-        // }
-
         // Establishing a connection
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
