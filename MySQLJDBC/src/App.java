@@ -11,7 +11,16 @@ public class App {
     static String username = "root";
     static String password = "password";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+
+        // // load and register the driver
+        // try {
+        //     Class.forName("com.mysql.cj.jdbc.Driver");
+        //     System.out.println("Driver loaded successfully.");
+        // } catch (ClassNotFoundException e) {
+        //     System.out.println("Failed to load the driver.");
+        //     e.printStackTrace();
+        // }
 
         // Establishing a connection
         try {
